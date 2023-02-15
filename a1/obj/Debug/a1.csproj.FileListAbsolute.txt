@@ -1,0 +1,27 @@
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\bin\Debug\a1.exe.config
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\bin\Debug\a1.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\bin\Debug\a1.pdb
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.MainForm.resources
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.exe
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.pdb
+C:\Users\Administrator\Documents\SharpDevelop Projects\a1\a1\obj\Debug\a1.Form1.resources
+C:\Users\Administrator\Desktop\a1\a1\bin\Debug\a1.exe.config
+C:\Users\Administrator\Desktop\a1\a1\bin\Debug\a1.exe
+C:\Users\Administrator\Desktop\a1\a1\bin\Debug\a1.pdb
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.Form1.resources
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.MainForm.resources
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.exe
+C:\Users\Administrator\Desktop\a1\a1\obj\Debug\a1.pdb
+G:\a1\a1\bin\Debug\a1.exe.config
+G:\a1\a1\bin\Debug\a1.exe
+G:\a1\a1\bin\Debug\a1.pdb
+G:\a1\a1\obj\Debug\a1.csprojResolveAssemblyReference.cache
+G:\a1\a1\obj\Debug\a1.Form1.resources
+G:\a1\a1\obj\Debug\a1.MainForm.resources
+G:\a1\a1\obj\Debug\a1.csproj.GenerateResource.Cache
+G:\a1\a1\obj\Debug\a1.exe
+G:\a1\a1\obj\Debug\a1.pdb

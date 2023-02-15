@@ -1,0 +1,3453 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.PowerShell.LocalAccounts</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.PowerShell.LocalAccounts.Strings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.Culture">
+            <summary>
+              Overrides the current threads CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.AccessDenied">
+            <summary>
+              Looks up a localized string similar to 
+               Access denied.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.AccountNotFound">
+            <summary>
+              Looks up a localized string similar to 
+               Account {0} was not found.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionAddGroupMember">
+            <summary>
+              Looks up a localized string similar to 
+               Add member {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionDisableUser">
+            <summary>
+              Looks up a localized string similar to 
+               Disable local user
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionEnableUser">
+            <summary>
+              Looks up a localized string similar to 
+               Enable local user
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionNewGroup">
+            <summary>
+              Looks up a localized string similar to 
+               Create new local group
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionNewUser">
+            <summary>
+              Looks up a localized string similar to 
+               Create new local user
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionRemoveGroup">
+            <summary>
+              Looks up a localized string similar to 
+               Remove local group
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionRemoveGroupMember">
+            <summary>
+              Looks up a localized string similar to 
+               Remove member {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionRemoveUser">
+            <summary>
+              Looks up a localized string similar to 
+               Remove local user
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionRenameGroup">
+            <summary>
+              Looks up a localized string similar to 
+               Rename local group to {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionRenameUser">
+            <summary>
+              Looks up a localized string similar to 
+               Rename local user to {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionSetGroup">
+            <summary>
+              Looks up a localized string similar to 
+               Modify local group
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ActionSetUser">
+            <summary>
+              Looks up a localized string similar to 
+               Modify local user
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.GroupExists">
+            <summary>
+              Looks up a localized string similar to 
+               Group {0} already exists.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.GroupHasMembers">
+            <summary>
+              Looks up a localized string similar to 
+               The group {0} still has members.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.GroupNotFound">
+            <summary>
+              Looks up a localized string similar to 
+               Group {0} was not found.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.InvalidForGroup">
+            <summary>
+              Looks up a localized string similar to 
+               The operation is not allowed for group {0}.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.InvalidForUser">
+            <summary>
+              Looks up a localized string similar to 
+               The operation is not allowed for user {0}.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.InvalidName">
+            <summary>
+              Looks up a localized string similar to 
+               The name {0} is invalid.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.InvalidParameterPair">
+            <summary>
+              Looks up a localized string similar to 
+               Parameter {0} and parameter {1} may not be used together.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.InvalidPassword">
+            <summary>
+              Looks up a localized string similar to 
+               Invalid password.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.LastAdmin">
+            <summary>
+              Looks up a localized string similar to 
+               Cannot remove the last Administrator
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.MemberExists">
+            <summary>
+              Looks up a localized string similar to 
+               {0} is already a member of group {1}.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.MemberNotFound">
+            <summary>
+              Looks up a localized string similar to 
+               Member {0} was not found in group {1}.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.MembersPrimaryGroup">
+            <summary>
+              Looks up a localized string similar to 
+               User {0} may not be removed from its primary group.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.NameInUse">
+            <summary>
+              Looks up a localized string similar to 
+               The name {0} is already in use.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ObjectClassGroup">
+            <summary>
+              Looks up a localized string similar to 
+               Group
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ObjectClassOther">
+            <summary>
+              Looks up a localized string similar to 
+               Other
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.ObjectClassUser">
+            <summary>
+              Looks up a localized string similar to 
+               User
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.PasswordRestriction">
+            <summary>
+              Looks up a localized string similar to 
+               The password cannot be set because a password restriction is in place.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.PrincipalNotFound">
+            <summary>
+              Looks up a localized string similar to 
+               Principal {0} was not found.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.RidToSidFailed">
+            <summary>
+              Looks up a localized string similar to 
+               RID {0} was not found.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.UnspecifiedError">
+            <summary>
+              Looks up a localized string similar to 
+               An unspecified error occurred.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.UnspecifiedErrorNtStatus">
+            <summary>
+              Looks up a localized string similar to 
+               An unspecified error occurred: status = {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.UnspecifiedErrorWin32Error">
+            <summary>
+              Looks up a localized string similar to 
+               An unspecified error occurred: error code = {0}
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.UserExists">
+            <summary>
+              Looks up a localized string similar to 
+               User {0} already exists.
+             
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.LocalAccounts.Strings.UserNotFound">
+            <summary>
+              Looks up a localized string similar to 
+               User {0} was not found.
+             
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.LocalAccountsException">
+            <summary>
+            Base class for cmdlet-specific exceptions.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalAccountsException.ErrorCategory">
+            <summary>
+            Gets the <see cref="T:System.Management.Automation.ErrorCategory"/>
+            value for this exception.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalAccountsException.Target">
+            <summary>
+            Gets the target object for this exception. This is used as
+            the TargetObject member of a PowerShell
+            <see cref="T:System.Management.Automation.ErrorRecord"/> object.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalAccountsException.ErrorName">
+            <summary>
+            Gets the error name. This is used as the ErrorId parameter when
+            constructing a PowerShell <see cref="T:System.Management.Automation.ErrorRecord"/>
+            oject.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalAccountsException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalAccountsException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalAccountsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalAccountsException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.InternalException">
+            <summary>
+            Exception indicating an error occurred during one of the internal
+            operations such as opening or closing a handle.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.InternalException.StatusCode">
+            <summary>
+            Gets the NTSTATUS code for this exception.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InternalException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InternalException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InternalException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InternalException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.Win32InternalException">
+            <summary>
+            Exception indicating an error occurred when a native function
+            is called that returns a Win32 error code as opposed to an
+            NT Status code.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.Win32InternalException.NativeErrorCode">
+            <summary>
+            The Win32 error code for this exception.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.Win32InternalException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.Win32InternalException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.Win32InternalException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.Win32InternalException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.InvalidPasswordException">
+            <summary>
+            Exception indicating an invalid password.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidPasswordException.#ctor">
+            <summary>
+            Generates with a default invalid password message.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidPasswordException.#ctor(System.String)">
+            <summary>
+            Generates the exception with the specified message.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidPasswordException.#ctor(System.UInt32)">
+            <summary>
+            Creates a message from the specified error code.
+            </summary>
+            <param name="errorCode"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidPasswordException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidPasswordException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.InvalidParametersException">
+            <summary>
+            Exception thrown when invalid parameter pairing is detected.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidParametersException.#ctor(System.String)">
+            <summary>
+            Creates InvalidParametersException using the specified message.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidParametersException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidParametersException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidParametersException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.AccessDeniedException">
+            <summary>
+            Exception indicating permission denied.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AccessDeniedException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AccessDeniedException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AccessDeniedException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AccessDeniedException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.InvalidNameException">
+            <summary>
+            Exception indicating that the name of a user or group is invalid.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidNameException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidNameException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidNameException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.InvalidNameException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.NameInUseException">
+            <summary>
+            Exception indicating that the specified name is already in use.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NameInUseException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NameInUseException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NameInUseException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NameInUseException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.NotFoundException">
+            <summary>
+            Exception indicating that an entity of some kind was not found.
+            Also serves as a base class for more specific object-not-found errors.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NotFoundException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NotFoundException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NotFoundException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.PrincipalNotFoundException">
+            <summary>
+            Exception indicating that a principal was not Found
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.PrincipalNotFoundException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.PrincipalNotFoundException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.PrincipalNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.PrincipalNotFoundException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            <summary>
+            Exception indicating that a group was not found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupNotFoundException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupNotFoundException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupNotFoundException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            <summary>
+            Exception indicating that a user was not found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserNotFoundException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserNotFoundException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserNotFoundException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.MemberNotFoundException">
+            <summary>
+            Exception indicating that a group member was not found.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberNotFoundException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberNotFoundException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberNotFoundException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberNotFoundException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.ObjectExistsException">
+            <summary>
+            Exception indicating that an entity of some kind already exists.
+            Also serves as a base class for more specific object-exists errors.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.ObjectExistsException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.ObjectExistsException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.ObjectExistsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.ObjectExistsException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.GroupExistsException">
+            <summary>
+            Exception indicating that a group already exists.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupExistsException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupExistsException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupExistsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GroupExistsException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.UserExistsException">
+            <summary>
+            Exception indicating that a group already exists.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserExistsException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserExistsException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserExistsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.UserExistsException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.MemberExistsException">
+            <summary>
+            Exception indicating that an object already exists as a group member.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberExistsException.#ctor">
+            <summary>
+            Compliance Constructor
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberExistsException.#ctor(System.String)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberExistsException.#ctor(System.String,System.Exception)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="message"></param>
+            <param name="ex"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.MemberExistsException.#ctor(Microsoft.PowerShell.CoreClr.Stubs.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Compliance Constructor
+            </summary>
+            <param name="info"></param>
+            <param name="ctx"></param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.LocalGroup">
+            <summary>
+            Describes a Local Group.
+            Objects of this type are provided to and returned from group-related Cmdlets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalGroup.Description">
+            <summary>
+            A short description of the Group.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalGroup.#ctor">
+            <summary>
+            Initializes a new LocalGroup object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalGroup.#ctor(System.String)">
+            <summary>
+            Initializes a new LocalUser object with the specified name.
+            </summary>
+            <param name="name">Name of the new LocalGroup.</param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalGroup.#ctor(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Construct a new LocalGroup object that is a copy of another
+            </summary>
+            <param name="other"></param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalGroup.ToString">
+            <summary>
+            Provides a string representation of the LocalGroup object.
+            </summary>
+            <returns>
+            A string containing the Group Name.
+            </returns>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalGroup.Clone">
+            <summary>
+            Create a copy of a LocalGroup object.
+            </summary>
+            <returns>
+            A new LocalGroup object with the same property values as this one.
+            </returns>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.PrincipalSource">
+            <summary>
+            Defines the source of a Principal
+            </summary>
+        </member>
+        <member name="F:Microsoft.PowerShell.Commands.PrincipalSource.Unknown">
+            <summary>
+            The principal source is unknown or could not be determined
+            </summary>
+        </member>
+        <member name="F:Microsoft.PowerShell.Commands.PrincipalSource.Local">
+            <summary>
+            The principal is sourced from the local Windows Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="F:Microsoft.PowerShell.Commands.PrincipalSource.ActiveDirectory">
+            <summary>
+            The principal is sourced from an Active Directory domain.
+            </summary>
+        </member>
+        <member name="F:Microsoft.PowerShell.Commands.PrincipalSource.AzureAD">
+            <summary>
+            The principal is sourced from Azure Active Directory.
+            </summary>
+        </member>
+        <member name="F:Microsoft.PowerShell.Commands.PrincipalSource.MicrosoftAccount">
+            <summary>
+            The principal is a Microsoft Account, such as
+            <b>MicrosoftAccount\user@domain.com</b>
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.LocalPrincipal">
+            <summary>
+            Represents a Principal. Serves as a base class for Users and Groups.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalPrincipal.Name">
+            <summary>
+            The account name of the Principal.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalPrincipal.SID">
+            <summary>
+            The Security Identifier that uniquely identifies the Principal/
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalPrincipal.PrincipalSource">
+            <summary>
+            Indicates the account store from which the principal is sourced.
+            One of the PrincipalSource enumerations.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalPrincipal.ObjectClass">
+            <summary>
+            The object class that represents this principal.
+            This can be User or Group.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalPrincipal.#ctor">
+            <summary>
+            Initializes a new LocalPrincipal object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalPrincipal.#ctor(System.String)">
+            <summary>
+            Initializes a new LocalPrincipal object with the specified name.
+            </summary>
+            <param name="name">Name of the new LocalPrincipal.</param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalPrincipal.ToString">
+            <summary>
+            Provides a string representation of the Principal.
+            </summary>
+            <returns>
+            A string, in SDDL form, representing the Principal.
+            </returns>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.LocalUser">
+            <summary>
+            Describes a Local User.
+            Objects of this type are provided to and returned from user-related Cmdlets.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.AccountExpires">
+            <summary>
+            The date and time at which this user account expires.
+            A value of null indicates that the account never expires.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.Description">
+            <summary>
+            A short description of the User.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.Enabled">
+            <summary>
+            Indicates whether the user account is enabled (true) or disabled (false).
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.FullName">
+            <summary>
+            The user's full name. Not the same as the User name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.PasswordChangeableDate">
+            <summary>
+            The date and time at which this user account password is allowed
+            to be changed. The password cannot be changed before this time.
+            A value of null indicates that the password can be changed anytime.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.PasswordExpires">
+            <summary>
+            The date and time at which this user account password must be changed
+            to a new password. A value of null indicates that the password will
+            never expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.UserMayChangePassword">
+            <summary>
+            Indicates whether the user is allowed to change the password (true)
+            or not (false).
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.PasswordRequired">
+            <summary>
+            Indicates whether the user must have a password (true) or not (false).
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.PasswordLastSet">
+            <summary>
+            The date and time at which this user last changed the account password.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.LocalUser.LastLogon">
+            <summary>
+            The date and time at which the user last logged on to the machine.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalUser.#ctor">
+            <summary>
+            Initializes a new LocalUser object.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalUser.#ctor(System.String)">
+            <summary>
+            Initializes a new LocalUser object with the specified name.
+            </summary>
+            <param name="name">Name of the new LocalUser.</param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalUser.#ctor(Microsoft.PowerShell.Commands.LocalUser)">
+            <summary>
+            Construct a new LocalUser object that is a copy of another.
+            </summary>
+            <param name="other">The LocalUser object to copy.</param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalUser.ToString">
+            <summary>
+            Provides a string representation of the LocalUser object.
+            </summary>
+            <returns>
+            A string containing the User Name.
+            </returns>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.LocalUser.Clone">
+            <summary>
+            Create a copy of a LocalUser object.
+            </summary>
+            <returns>
+            A new LocalUser object with the same property values as this one.
+            </returns>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand">
+            <summary>
+            The Add-LocalGroupMember cmdlet adds one or more users or groups to a local 
+            group.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.Group">
+            <summary>
+            The following is the definition of the input parameter "Group".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.Member">
+            <summary>
+            The following is the definition of the input parameter "Member".
+            Specifies one or more users or groups to add to this local group. You can 
+            identify users or groups by specifying their names or SIDs, or by passing 
+            Microsoft.PowerShell.Commands.LocalPrincipal objects.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.MakePrincipal(System.String,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Creates a list of <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> objects
+            ready to be processed by the cmdlet.
+            </summary>
+            <param name="groupId">
+            Name or SID (as a string) of the group we'll be adding to.
+            This string is used primarily for specifying the target
+            in WhatIf scenarios.
+            </param>
+            <param name="member">
+            LocalPrincipal object to be processed 
+            </param>
+            <returns>
+            A LocalPrincipal Object to be added to the group
+            </returns>
+            <remarks>
+            <para>
+            LocalPrincipal objects in the Member parameter may not be complete,
+            particularly those created from a name or a SID string given to the
+            Member cmdlet parameter. The object returned from this method contains
+            , at the very least, a valid SID.
+            </para>
+            <para>
+            Any Member objects provided by name or SID string will be looked up
+            to ensure that such an object exists. If an object is not found,
+            an error message is displayed by PowerShell and null will be returned
+            </para>
+            <para>
+            This method also handles the WhatIf scenario. If the Cmdlet's
+            <b>ShouldProcess</b> method returns false on any Member object,
+            that object will not be included in the returned List.
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.CheckShouldProcess(Microsoft.PowerShell.Commands.LocalPrincipal,System.String)">
+            <summary>
+            Determine if a principal should be processed.
+            Just a wrapper around Cmdlet.ShouldProcess, with localized string
+            formatting.
+            </summary>
+            <param name="principal">Name of the principal to be added.</param>
+            <param name="groupName">
+            Name of the group to which the members will be added.
+            </param>
+            <returns>
+            True if the principal should be processed, false otherwise.
+            </returns>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.ProcessGroup(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Add members to a group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object representing the group to which
+            the members will be added.
+            </param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.ProcessName(System.String)">
+            <summary>
+            Add members to a group specified by name.
+            </summary>
+            <param name="name">
+            The name of the group to which the members will be added.
+            </param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.AddLocalGroupMemberCommand.ProcessSid(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Add members to a group specified by SID.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group
+            to which the members will be added.
+            </param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.DisableLocalUserCommand">
+            <summary>
+            The Disable-LocalUser cmdlet disables local user accounts. When a user 
+            account is disabled, the user is not permitted to log on. When a user 
+            account is enabled, the user is permitted to log on normally.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.DisableLocalUserCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local user accounts to disable in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.DisableLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the names of the local user accounts to disable in the local 
+            Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.DisableLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies the LocalUser accounts to disable by 
+            System.Security.Principal.SecurityIdentifier.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.ProcessNames">
+            <summary>
+            Process users requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.ProcessSids">
+            <summary>
+            Process users requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.DisableLocalUserCommand.ProcessUsers">
+            <summary>
+            Process users requested by -InputObject
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.EnableLocalUserCommand">
+            <summary>
+            The Enable-LocalUser cmdlet enables local user accounts. When a user account 
+            is disabled, the user is not permitted to log on. When a user account is 
+            enabled, the user is permitted to log on normally.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.EnableLocalUserCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local user accounts to enable in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.EnableLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local user accounts to enable in the local Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.EnableLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies the LocalUser accounts to enable by 
+            System.Security.Principal.SecurityIdentifier.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.ProcessNames">
+            <summary>
+            Process users requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.ProcessSids">
+            <summary>
+            Process users requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.EnableLocalUserCommand.ProcessUsers">
+            <summary>
+            Process users requested by -InputObject
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.GetLocalGroupCommand">
+            <summary>
+            The Get-LocalGroup cmdlet gets local groups from the Windows Security 
+            Accounts manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local groups to get from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a local group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupCommand.ProcessNames">
+            <summary>
+            Process groups requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            Groups may be specified using wildcards.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupCommand.ProcessSids">
+            <summary>
+            Process groups requested by -SID
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand">
+            <summary>
+            The Get-LocalGroupMember cmdlet gets the members of a local group.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.Group">
+            <summary>
+            The following is the definition of the input parameter "Group".
+            The security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.Member">
+            <summary>
+            The following is the definition of the input parameter "Member".
+            Specifies the name of the user or group that is a member of this group. If 
+            this parameter is not specified, all members of the specified group are 
+            returned. This accepts a name, SID, or wildcard string.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            The security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            The security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalGroupMemberCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.GetLocalUserCommand">
+            <summary>
+            The Get-LocalUser cmdlet gets local user accounts from the Windows Security 
+            Accounts Manager. This includes local accounts that have been connected to a 
+            Microsoft account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local user accounts to get from the local Security Accounts 
+            Manager. This accepts a name or wildcard string.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a user from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalUserCommand.ProcessNames">
+            <summary>
+            Process users requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            Users may be specified using wildcards.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetLocalUserCommand.ProcessSids">
+            <summary>
+            Process users requested by -SID
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.NewLocalGroupCommand">
+            <summary>
+            The New-LocalGroup Cmdlet can be used to create a new local security group 
+            in the Windows Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalGroupCommand.Description">
+            <summary>
+            The following is the definition of the input parameter "Description".
+            A descriptive comment.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalGroupCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            The group name for the local security group.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalGroupCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalGroupCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalGroupCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.NewLocalUserCommand">
+            <summary>
+            The New-LocalUser cmdlet creates a new local user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.AccountExpires">
+            <summary>
+            The following is the definition of the input parameter "AccountExpires".
+            Specifies when the user account will expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.AccountNeverExpires">
+            <summary>
+            The following is the definition of the input parameter "AccountNeverExpires".
+            Specifies that the account will not expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.Description">
+            <summary>
+            The following is the definition of the input parameter "Description".
+            A descriptive comment for this user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.Disabled">
+            <summary>
+            The following is the definition of the input parameter "Disabled".
+            Specifies whether this user account is enabled or disabled.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.FullName">
+            <summary>
+            The following is the definition of the input parameter "FullName".
+            Specifies the full name of the user account. This is different from the 
+            username of the user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the user name for the local user account. This can be a local user 
+            account or a local user account that is connected to a Microsoft Account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.Password">
+            <summary>
+            The following is the definition of the input parameter "Password".
+            Specifies the password for the local user account. A password can contain up 
+            to 127 characters.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.NoPassword">
+            <summary>
+            The following is the definition of the input parameter "PasswordChangeableDate".
+            Specifies that the new User account has no password.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.PasswordNeverExpires">
+            <summary>
+            The following is the definition of the input parameter "PasswordNeverExpires".
+            Specifies that the password will not expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewLocalUserCommand.UserMayNotChangePassword">
+            <summary>
+            The following is the definition of the input parameter "UserMayNotChangePassword".
+            Specifies whether the user is allowed to change the password on this 
+            account. The default value is True.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand">
+            <summary>
+            The Remove-LocalGroup cmdlet deletes a security group from the Windows 
+            Security Accounts manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies security groups from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local groups to be deleted from the local Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies the LocalGroup accounts to remove by 
+            System.Security.Principal.SecurityIdentifier.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.ProcessNames">
+            <summary>
+            Process groups requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.ProcessSids">
+            <summary>
+            Process groups requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupCommand.ProcessGroups">
+            <summary>
+            Process groups given through -InputObject
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand">
+            <summary>
+            The Remove-LocalGroupMember cmdlet removes one or more members (users or 
+            groups) from a local security group.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.Group">
+            <summary>
+            The following is the definition of the input parameter "Group".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.Member">
+            <summary>
+            The following is the definition of the input parameter "Member".
+            Specifies one or more users or groups to remove from this local group. You can 
+            identify users or groups by specifying their names or SIDs, or by passing 
+            Microsoft.PowerShell.Commands.LocalPrincipal objects.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            The security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.MakePrincipal(System.String,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Creates a list of <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> objects
+            ready to be processed by the cmdlet.
+            </summary>
+            <param name="groupId">
+            Name or SID (as a string) of the group we'll be removing from.
+            This string is used primarily for specifying the target
+            in WhatIf scenarios.
+            </param>
+            <param name="member">
+            LocalPrincipal object to be processed 
+            </param>
+            <returns>
+            LocalPrincipal object processed and ready to be removed
+            </returns>
+            <remarks>
+            <para>
+            LocalPrincipal object in the Member parameter may not be complete,
+            particularly those created from a name or a SID string given to the
+            Member cmdlet parameter. The object returned from this method contains at the very least, contain a valid SID.
+            </para>
+            <para>
+            Any Member object provided by name or SID string will be looked up
+            to ensure that such an object exists. If an object is not found,
+            an error message is displayed by PowerShell and null will be returned from this method
+            </para>
+            <para>
+            This method also handles the WhatIf scenario. If the Cmdlet's
+            <b>ShouldProcess</b> method returns false on any Member object
+            </para>
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.CheckShouldProcess(Microsoft.PowerShell.Commands.LocalPrincipal,System.String)">
+            <summary>
+            Determine if a principal should be processed.
+            Just a wrapper around Cmdlet.ShouldProcess, with localized string
+            formatting.
+            </summary>
+            <param name="principal">Name of the principal to be removed.</param>
+            <param name="groupName">
+            Name of the group from which the members will be removed.
+            </param>
+            <returns>
+            True if the principal should be processed, false otherwise.
+            </returns>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.ProcessGroup(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Remove members from a group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object representing the group from which
+            the members will be removed.
+            </param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.ProcessName(System.String)">
+            <summary>
+            Remove members from a group specified by name.
+            </summary>
+            <param name="name">
+            The name of the group from which the members will be removed.
+            </param>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalGroupMemberCommand.ProcessSid(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Remove members from a group specified by SID.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group
+            from which the members will be removed.
+            </param>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.RemoveLocalUserCommand">
+            <summary>
+            The Remove-LocalUser cmdlet deletes a user account from the Windows Security 
+            Accounts manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local user accounts to remove in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the user accounts to be deleted from the local Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies the local user accounts to remove by 
+            System.Security.Principal.SecurityIdentifier.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.ProcessNames">
+            <summary>
+            Process users requested by -Name
+            </summary>
+            <remarks>
+            All arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.ProcessSids">
+            <summary>
+            Process users requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RemoveLocalUserCommand.ProcessUsers">
+            <summary>
+            Process users given through -InputObject
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.RenameLocalGroupCommand">
+            <summary>
+            The Rename-LocalGroup cmdlet renames a local security group in the Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local group account to rename in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local group to be renamed in the local Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.NewName">
+            <summary>
+            The following is the definition of the input parameter "NewName".
+            Specifies the new name for the local security group in the Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.ProcessName">
+            <summary>
+            Process group requested by -Name
+            </summary>
+            <remarks>
+            Arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.ProcessSid">
+            <summary>
+            Process group requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.ProcessGroup">
+            <summary>
+            Process group given through -InputObject
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalGroupCommand.CheckShouldProcess(System.String,System.String)">
+            <summary>
+            Determine if a group should be processed.
+            Just a wrapper around Cmdlet.ShouldProcess, with localized string
+            formatting.
+            </summary>
+            <param name="groupName">
+            Name of the group to rename.
+            </param>
+            <param name="newName">
+            New name for the group.
+            </param>
+            <returns>
+            True if the group should be processed, false otherwise.
+            </returns>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.RenameLocalUserCommand">
+            <summary>
+            The Rename-LocalUser cmdlet renames a local user account in the Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalUserCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local user account to rename in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local user account to be renamed in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalUserCommand.NewName">
+            <summary>
+            The following is the definition of the input parameter "NewName".
+            Specifies the new name for the local user account in the Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.RenameLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies the local user to rename.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.ProcessName">
+            <summary>
+            Process user requested by -Name
+            </summary>
+            <remarks>
+            Arguments to -Name will be treated as names,
+            even if a name looks like a SID.
+            </remarks>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.ProcessSid">
+            <summary>
+            Process user requested by -SID
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.ProcessUser">
+            <summary>
+            Process group given through -InputObject
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.RenameLocalUserCommand.CheckShouldProcess(System.String,System.String)">
+            <summary>
+            Determine if a user should be processed.
+            Just a wrapper around Cmdlet.ShouldProcess, with localized string
+            formatting.
+            </summary>
+            <param name="userName">
+            Name of the user to rename.
+            </param>
+            <param name="newName">
+            New name for the user.
+            </param>
+            <returns>
+            True if the user should be processed, false otherwise.
+            </returns>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.SetLocalGroupCommand">
+            <summary>
+            The Set-LocalGroup cmdlet modifies the properties of a local security group 
+            in the Windows Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalGroupCommand.Description">
+            <summary>
+            The following is the definition of the input parameter "Description".
+            A descriptive comment.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalGroupCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the local group account to modify in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalGroupCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local group to be renamed in the local Security Accounts 
+            Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalGroupCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a security group from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalGroupCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalGroupCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalGroupCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.SetLocalUserCommand">
+            <summary>
+            The Set-LocalUser cmdlet changes the properties of a user account in the 
+            local Windows Security Accounts Manager. It can also reset the password of a 
+            local user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.AccountExpires">
+            <summary>
+            The following is the definition of the input parameter "AccountExpires".
+            Specifies when the user account will expire. Set to null to indicate that 
+            the account will never expire. The default value is null (account never 
+            expires).
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.AccountNeverExpires">
+            <summary>
+            The following is the definition of the input parameter "AccountNeverExpires".
+            Specifies that the account will not expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.Description">
+            <summary>
+            The following is the definition of the input parameter "Description".
+            A descriptive comment for this user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.FullName">
+            <summary>
+            The following is the definition of the input parameter "FullName".
+            Specifies the full name of the user account. This is different from the 
+            username of the user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.InputObject">
+            <summary>
+            The following is the definition of the input parameter "InputObject".
+            Specifies the of the local user account to modify in the local Security 
+            Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.Name">
+            <summary>
+            The following is the definition of the input parameter "Name".
+            Specifies the local user account to change.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.Password">
+            <summary>
+            The following is the definition of the input parameter "Password".
+            Specifies the password for the local user account.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.PasswordNeverExpires">
+            <summary>
+            The following is the definition of the input parameter "PasswordNeverExpires".
+            Specifies that the password will not expire.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.SID">
+            <summary>
+            The following is the definition of the input parameter "SID".
+            Specifies a user from the local Security Accounts Manager.
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.SetLocalUserCommand.UserMayChangePassword">
+            <summary>
+            The following is the definition of the input parameter "UserMayChangePassword".
+            Specifies whether the user is allowed to change the password on this 
+            account. The default value is True.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalUserCommand.BeginProcessing">
+            <summary>
+            BeginProcessing method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalUserCommand.ProcessRecord">
+            <summary>
+            ProcessRecord method.
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.SetLocalUserCommand.EndProcessing">
+            <summary>
+            EndProcessing method.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Extensions.CmdletExtensions">
+            <summary>
+            Provides extension methods for the Cmdlet class
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Extensions.CmdletExtensions.TrySid(System.Management.Automation.Cmdlet,System.String,System.Boolean)">
+            <summary>
+            Attempt to create a SID from a string.
+            </summary>
+            <param name="cmdlet">The cmdlet being extended with this method.</param>
+            <param name="s">The string to be converted to a SID.</param>
+            <param name="allowSidConstants">
+            A boolean indicating whether SID constants, such as "BA", are considered.
+            </param>
+            <returns>
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object if the conversion was successful,
+            null otherwise.
+            </returns>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Extensions.PSExtensions">
+            <summary>
+            Provides extension methods for the PSCmdlet class
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Extensions.PSExtensions.HasParameter(System.Management.Automation.PSCmdlet,System.String)">
+            <summary>
+            Determine if a given parameter was provided to the cmdlet
+            </summary>
+            <param name="cmdlet">
+            The <see cref="T:System.Management.Automation.PSCmdlet"/> object to check.
+            </param>
+            <param name="parameterName">
+            A string containing the name of the parameter. This should be in the
+            same letter-casing as the defined parameter.
+            </param>
+            <returns>
+            True if the specified parameter was given on the cmdlet invocation,
+            false otherwise.
+            </returns>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Extensions.SidExtensions">
+            <summary>
+            Provides extension methods for the SecurityIdentifier class.
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Extensions.SidExtensions.GetRid(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Get the Relative ID (RID) from a <see cref="T:System.Security.Principal.SecurityIdentifier"/> object.
+            </summary>
+            <param name="sid">The SecurityIdentifier containing the desired Relative ID.</param>
+            <returns>
+            A UInt32 value containing the Relative ID in the SecurityIdentifier.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Extensions.SidExtensions.GetIdentifierAuthority(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Gets the Identifier Authority portion of a <see cref="T:System.Security.Principal.SecurityIdentifier"/>
+            </summary>
+            <param name="sid">The SecurityIdentifier containing the desired Authority.</param>
+            <returns>
+            A long integer value containing the SecurityIdentifier's Identifier Authority value.
+            </returns>
+            <remarks>
+            This method is used primarily for determining the Source of a Principal.
+            The Win32 API LsaLookupUserAccountType function does not (yet) properly
+            identify MicrosoftAccount principals.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Extensions.SecureStringExtensions.AsString(System.Security.SecureString)">
+            <summary>
+            Extension method to extract clear text from a
+            <see cref="T:System.Security.SecureString"/> object.
+            </summary>
+            <param name="str">
+            This SecureString object, containing encrypted text.
+            </param>
+            <returns>
+            A string containing the SecureString object's original text.
+            </returns>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Native.UNICODE_STRING">
+            <summary>
+            The UNICODE_STRING structure is passed to a number of the SAM and LSA
+            API functions. This adds cleanup and managed-string conversion behaviors.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade">
+            <summary>
+            Wraps calls to Marshal functions that differ between .Net 4.5 and CoreCLR. .Net 4.5.1 types are not allowed for PowerShell.
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade.#ctor">
+            <summary>
+            Private constructor to prevent auto-generation of a default constructor
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade.SizeOf``1">
+            <summary>
+            Facade for Marshal.SizeOf
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade.DestroyStructure``1(System.IntPtr)">
+            <summary>
+            Facade for Marshal.DestroyStructure
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade.PtrToStructure``1(System.IntPtr)">
+            <summary>
+            Facade for Marshal.PtrToStructure
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.ClrFacade.StructureToPtr``1(``0,System.IntPtr,System.Boolean)">
+            <summary>
+            Wraps Marshal.StructureToPtr to hide differences between the CLRs.
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.IsSuccess(System.UInt32)">
+            <summary>
+            Determine if an NTSTATUS value indicates Success
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            True if the NTSTATUS value indicates success, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.IsError(System.UInt32)">
+            <summary>
+            Determine if an NTSTATUS value indicates an Error
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            True if the NTSTATUS value indicates an error, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.IsWarning(System.UInt32)">
+            <summary>
+            Determine if an NTSTATUS value indicates a Warning
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            True if the NTSTATUS value indicates a warning, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.IsInformational(System.UInt32)">
+            <summary>
+            Determine if an NTSTATUS value indicates that the value is Informational.
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            True if the NTSTATUS value indicates that it is informational, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.Severity(System.UInt32)">
+            <summary>
+            Return the Severity part of an NTSTATUS value
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            One of the STATUS_SEVERITY_* values
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.Facility(System.UInt32)">
+            <summary>
+            Return the Facility part of an NSTATUS value
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            The value of the Facility portion of an NTSTATUS value.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Native.NtStatus.Code(System.UInt32)">
+            <summary>
+            Return the Code part of an NTSTATUS value
+            </summary>
+            <param name="ntstatus">The NTSTATUS value returned from native functions.</param>
+            <returns>
+            The value of the Code portion of an NTSTATUS value.
+            </returns>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Native.NtSam.SamApi">
+            <summary>
+            Provides methods for invoking functions in the Windows
+            Security Accounts Manager (SAM) API.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Enabling">
+            <summary>
+            Defines enumeration constants for enabling and disabling something.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration">
+            <summary>
+            Managed version of the SAM_RID_ENUMERATION native structure,
+            to be returned from the EnumerateLocalUsers method of Sam.
+            Contains the original structure's members along with additional
+            members of use.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam">
+            <summary>
+            Provides methods for manipulating local Users and Groups.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.UserProperties">
+            <summary>
+            Defines a set of flags, each corresponding to a member of LocalUser,
+            which indicate fields to be updated.
+            </summary>
+            <remarks>
+            Although password can be set through Create-LocalUser and Set-LocalUser,
+            it is not a member of LocalUser so does not appear in this enumeration.
+            </remarks>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.ContextOperation">
+            <summary>
+            The operation under way. Used in the <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.Context"/> class.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.ContextObjectType">
+            <summary>
+            The type of object currently operating with.
+            used in the <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.Context"/> class.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.Context">
+            <summary>
+            Holds information about the underway operation.
+            </summary>
+            <remarks>
+            Used primarily by the private ThrowOnFailure method when building
+            Exception objects to throw.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.Context.#ctor(System.Management.Automation.SecurityAccountsManager.Sam.ContextOperation,System.Management.Automation.SecurityAccountsManager.Sam.ContextObjectType,System.String,System.Object,System.String)">
+            <summary>
+            Initialize a new Context object.
+            </summary>
+            <param name="operation">
+            One of the <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.ContextOperation"/> enumerations indicating
+            the type of operation under way.
+            </param>
+            <param name="objectType">
+            One of the <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.ContextObjectType"/> enumerations indicating
+            the type of object (user or group) being used.
+            </param>
+            <param name="objectIdentifier">
+            A string containing the name of the object. This may be either a
+            user/group name or a string representation of a SID.
+            </param>
+            <param name="target">
+            The target being operated on.
+            </param>
+            <param name="memberIdentifier">
+            A string containing the name of the member being added or removed
+            from a group. Used only in such cases.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.Context.#ctor">
+            <summary>
+            Default constructor
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.Context.OperationName">
+            <summary>
+            Gets a string containing the type of operation under way.
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.Context.TypeNamne">
+            <summary>
+            Gets a string containing the type of object ("User" or "Group")
+            being used.
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.Context.ObjectName">
+            <summary>
+            Gets a string containing the name of the object being used.
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.Context.MemberName">
+            <summary>
+            Gets a string containing the name of the member being added to
+            or removed from a group. Returns null if the operation does not
+            involve group members.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo">
+            <summary>
+            Contains basic information about an Account.
+            </summary>
+            <remarks>
+            AccountInfo is the return type from the private
+            LookupAccountInfo method.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalGroup(System.String)">
+            <summary>
+            Retrieve a named local group
+            </summary>
+            <param name="groupName">Name of the desired local group.</param>
+            <returns>
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing information about
+            the local group.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the named group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalGroup(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Retrieve a local group by SID
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the desired group.
+            </param>
+            <returns>
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing information about
+            the local group.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.CreateLocalGroup(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Create a local group.
+            </summary>
+            <param name="group">A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing
+            information about the local group to be created.
+            </param>
+            <returns>
+            A new LocalGroup object containing information about the newly
+            created local group.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupExistsException">
+            Thrown when an attempt is made to create a local group that already
+            exists.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.UpdateLocalGroup(Microsoft.PowerShell.Commands.LocalGroup,Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Update a local group with new property values
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object representing the group to be updated.
+            </param>
+            <param name="changed">
+            A LocalGroup object containing the desired changes.
+            </param>
+            <remarks>
+            Currently, a group's description is the only changeable property.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalGroup(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Remove a local group.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the
+            local group to be removed.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalGroup(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Remove a local group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing
+            information about the local group to be removed.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameLocalGroup(System.Security.Principal.SecurityIdentifier,System.String)">
+            <summary>
+            Rename a local group.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying
+            the local group to be renamed.
+            </param>
+            <param name="newName">
+            A string containing the new name for the local group.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameLocalGroup(Microsoft.PowerShell.Commands.LocalGroup,System.String)">
+            <summary>
+            Rename a local group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing
+            information about the local group to be renamed.
+            </param>
+            <param name="newName">
+            A string containing the new name for the local group.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetMatchingLocalGroups(System.Predicate{System.String})">
+            <summary>
+            Get all local groups whose names satisfy the specified predicate.
+            </summary>
+            <param name="pred">
+            Predicate that determines whether a group satisfies the conditions.
+            </param>
+            <returns>
+            An <see cref="T:System.Collections.Generic.IEnumerable`1"/> object containing LocalGroup
+            objects that satisfy the predicate condition.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetAllLocalGroups">
+            <summary>
+            Get all local groups.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.Generic.IEnumerable`1"/> object containing a
+            LocalGroup object for each local group.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.AddLocalGroupMember(Microsoft.PowerShell.Commands.LocalGroup,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Add members to a local group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object identifying the group to
+            which to add members.
+            </param>
+            <param name="member">
+            An object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> identifying
+            the member to be added.
+            </param>
+            <returns>
+            An Exception object indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.AddLocalGroupMember(System.Security.Principal.SecurityIdentifier,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Add members to a local group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group to
+            which to add members.
+            </param>
+            <param name="member">
+            An object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> identifying
+            the member to be added.
+            </param>
+            <returns>
+            An Exception object indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalGroupMembers(Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Retrieve members of a Local group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object identifying the group whose members
+            are requested.
+            </param>
+            <returns>
+            An IEnumerable of <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> objects containing the group's
+            members.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalGroupMembers(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Retrieve members of a Local group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group whose members
+            are requested.
+            </param>
+            <returns>
+            An IEnumerable of <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> objects containing the group's
+            members.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalGroupMember(Microsoft.PowerShell.Commands.LocalGroup,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Remove members from a local group.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object identifying the group from
+            which to remove members
+            </param>
+            <param name="member">
+            An object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> identifying
+            the member to be removed.
+            </param>
+            <returns>
+            An Exception object indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalGroupMember(System.Security.Principal.SecurityIdentifier,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Remove members from a local group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group from
+            which to remove members
+            </param>
+            <param name="member">
+            An Object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> identifying
+            the member to be removed.
+            </param>
+            <returns>
+            An Exception object indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalUser(System.String)">
+            <summary>
+            Retrieve a named local user
+            </summary>
+            <param name="userName">Name of the desired local user.</param>
+            <returns>
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing information about
+            the local user.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the named user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetLocalUser(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Retrieve a local user by SID
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the desired user.
+            </param>
+            <returns>
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing information about
+            the local user.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.CreateLocalUser(Microsoft.PowerShell.Commands.LocalUser,System.Security.SecureString,System.Boolean)">
+            <summary>
+            Create a local user
+            </summary>
+            <param name="user">A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing
+            information about the local user to be created.
+            </param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/> containing
+            the initial password to be set for the new local user. If this parameter is null,
+            no password is set.
+            </param>
+            <param name="setPasswordNeverExpires">
+            Indicates whether PasswordNeverExpires was specified
+            </param>
+            <returns>
+            A new LocalGroup object containing information about the newly
+            created local user.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserExistsException">
+            Thrown when an attempt is made to create a local user that already
+            exists.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalUser(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Remove a local user.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying
+            the local user to be removed.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveLocalUser(Microsoft.PowerShell.Commands.LocalUser)">
+            <summary>
+            Remove a local user.
+            </summary>
+            <param name="user">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing
+            information about the local user to be removed.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameLocalUser(System.Security.Principal.SecurityIdentifier,System.String)">
+            <summary>
+            Rename a local user.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> objects identifying
+            the local user to be renamed.
+            </param>
+            <param name="newName">
+            A string containing the new name for the local user.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameLocalUser(Microsoft.PowerShell.Commands.LocalUser,System.String)">
+            <summary>
+            Rename a local user.
+            </summary>
+            <param name="user">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> objects containing
+            information about the local user to be renamed.
+            </param>
+            <param name="newName">
+            A string containing the new name for the local user.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnableLocalUser(System.Security.Principal.SecurityIdentifier,System.Management.Automation.SecurityAccountsManager.Enabling)">
+            <summary>
+            Enable or disable a Local User
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the user to enable or disable.
+            </param>
+            <param name="enable">
+            One of the <see cref="T:System.Management.Automation.SecurityAccountsManager.Enabling"/> enumeration values, indicating whether to
+            enable or disable the user.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnableLocalUser(Microsoft.PowerShell.Commands.LocalUser,System.Management.Automation.SecurityAccountsManager.Enabling)">
+            <summary>
+            Enable or disable a Local User
+            </summary>
+            <param name="user">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object representing the user to enable or disable.
+            </param>
+            <param name="enable">
+            One of the <see cref="T:System.Management.Automation.SecurityAccountsManager.Enabling"/> enumeration values, indicating whether to
+            enable or disable the user.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.UpdateLocalUser(Microsoft.PowerShell.Commands.LocalUser,Microsoft.PowerShell.Commands.LocalUser,System.Security.SecureString,System.Nullable{System.Boolean})">
+            <summary>
+            Update a local user with new properties.
+            </summary>
+            <param name="user">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object representing the user to be updated.
+            </param>
+            <param name="changed">
+            A LocalUser object containing the desired changes.
+            </param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/>
+            object containing the new password. A null value in this parameter
+            indicates that the password is not to be changed.
+            </param>
+            <param name="setPasswordNeverExpires">
+            Specifies whether the PasswordNeverExpires parameter was set.
+            </param>
+            <remarks>
+            Call this overload when intending to leave the password-expired
+            marker in its current state. To set the password and the
+            password-expired state, call the overload with a boolean as the
+            fourth parameter
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetMatchingLocalUsers(System.Predicate{System.String})">
+            <summary>
+            Get all local users whose names satisfy the specified predicate.
+            </summary>
+            <param name="pred">
+            Predicate that determines whether a user satisfies the conditions.
+            </param>
+            <returns>
+            An <see cref="T:System.Collections.Generic.IEnumerable`1"/> object containing LocalUser
+            objects that satisfy the predicate condition.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetAllLocalUsers">
+            <summary>
+            Get all local users.
+            </summary>
+            <returns>
+            An <see cref="T:System.Collections.Generic.IEnumerable`1"/> object containing a
+            LocalUser object for each local user.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.OpenHandles">
+            <summary>
+            Open the handles stored by Sam instances.
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetGroupSre(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Find a group by SID and return a <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object
+            representing the group.
+            </summary>
+            <param name="sid">A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying
+            the group to search for.</param>
+            <returns>
+            A SamRidEnumeration object representing the group.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group is not found.
+            </exception>
+            <remarks>
+            This method saves some time and effort over the GetGroup method
+            because it does not have to open a group to populate a full Group
+            object.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetUserSre(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Find a user by SID and return a <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object
+            representing the user.
+            </summary>
+            <param name="sid">A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying
+            the user to search for.</param>
+            <returns>
+            A SamRidEnumeration object representing the user.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.UserNotFoundException">
+            Thrown when the specified user is not found.
+            </exception>
+            <remarks>
+            This method saves some time and effort over the GetUser method
+            because it does not have to open a user to populate a full LocalUser
+            object.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnumerateUsersInDomain(System.IntPtr)">
+            <summary>
+            Enumerate local users with native SAM functions.
+            </summary>
+            <param name="domainHandle">Handle to the domain to enumerate over.</param>
+            <returns>
+            An IEnumerable of SamRidEnumeration objects, one for each local user.
+            </returns>
+            <remarks>
+            This is a "generator" method. Rather than returning an entire collection,
+            it uses 'yield return' to return each object in turn.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnumerateUsers">
+            <summary>
+            Enumerate user objects in both the local and builtin domains.
+            </summary>
+            <returns>
+            An IEnumerable of SamRidEnumeration objects, one for each local user.
+            </returns>
+            <remarks>
+            This is a "generator" method. Rather than returning an entire collection,
+            it uses 'yield return' to return each object in turn.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.CreateUser(Microsoft.PowerShell.Commands.LocalUser,System.Security.SecureString,System.IntPtr,System.Boolean)">
+            <summary>
+            Create a new user in the specified domain.
+            </summary>
+            <param name="userInfo">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing information about the new user.
+            </param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/> containing
+            the initial password to be set for the new local user. If this parameter is null,
+            no password is set.
+            </param>
+            <param name="domainHandle">
+            Handle to the domain in which to create the new user.
+            </param>
+            <param name="setPasswordNeverExpires">
+            Indicates whether PasswordNeverExpires was specified
+            </param>
+            <returns>
+            A LocalUser object that represents the newly-created user
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveGroup(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Remove a group identified by SID
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the
+            group to be removed.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameGroup(System.Security.Principal.SecurityIdentifier,System.String)">
+            <summary>
+            Rename a group identified by SID.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying
+            the local group to be renamed.
+            </param>
+            <param name="newName">
+            A string containing the new name for the group.
+            </param>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown when the specified group cannot be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.AddGroupMember(System.Security.Principal.SecurityIdentifier,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Add members to a group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group to
+            which to add members.
+            </param>
+            <param name="member">
+            An object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/>identifying
+            the member to be added.
+            </param>
+            <returns>
+            An Exception object indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetGroupMembers(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Retrieve members of a group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object representing the group whose members
+            are requested.
+            </param>
+            <returns>
+            An IEnumerable of <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> objects containing the group's
+            members.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveGroupMember(System.Security.Principal.SecurityIdentifier,Microsoft.PowerShell.Commands.LocalPrincipal)">
+            <summary>
+            Remove members from a group.
+            </summary>
+            <param name="groupSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the group from
+            which to remove members
+            </param>
+            <param name="member">
+            An object of type <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> identifying
+            the member to be removed.
+            </param>
+            <returns>
+            An IEnumerable of Exception objects indicating any errors encountered.
+            </returns>
+            <exception cref="T:Microsoft.PowerShell.Commands.GroupNotFoundException">
+            Thrown if the group could not be found.
+            </exception>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeLocalUserObject(System.Management.Automation.SecurityAccountsManager.SamRidEnumeration)">
+            <summary>
+            Create a populated LocalUser object from a SamRidEnumeration object.
+            </summary>
+            <param name="sre">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object containing minimal information
+            about a local user.
+            </param>
+            <returns>
+            A LocalUser object, populated with user information.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeLocalUserObject(System.Management.Automation.SecurityAccountsManager.SamRidEnumeration,System.IntPtr)">
+            <summary>
+            Create a populated LocalUser object from a SamRidEnumeration object,
+            using an already-opened SAM user handle.
+            </summary>
+            <param name="sre">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object containing minimal information
+            about a local user.
+            </param>
+            <param name="userHandle">
+            Handle to an open SAM user.
+            </param>
+            <returns>
+            A LocalUser object, populated with user information.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnableUser(System.Security.Principal.SecurityIdentifier,System.Management.Automation.SecurityAccountsManager.Enabling)">
+            <summary>
+            Enable or disable a user.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the user to be
+            enabled or disabled.
+            </param>
+            <param name="enable">
+            One of the <see cref="T:System.Management.Automation.SecurityAccountsManager.Enabling"/> enumeration values indicating
+            whether the user is to be enabled or disabled.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RenameUser(System.Security.Principal.SecurityIdentifier,System.String)">
+            <summary>
+            Rename a user.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the user to be
+            renamed.
+            </param>
+            <param name="newName">The new user name.</param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RemoveUser(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Delete a user.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the user to be
+            removed.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnumerateGroupsInDomain(System.IntPtr)">
+            <summary>
+            Enumerate local users with native SAM functions.
+            </summary>
+            <param name="domainHandle">Handle to the domain to enumerate over.</param>
+            <returns>
+            An IEnumerable of SamRidEnumeration objects, one for each local user.
+            </returns>
+            <remarks>
+            This is a "generator" method. Rather than returning an entire collection,
+            it uses 'yield return' to return each object in turn.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.EnumerateGroups">
+            <summary>
+            Enumerate group objects in both the local and builtin domains.
+            </summary>
+            <returns>
+            An IEnumerable of SamRidEnumeration objects, one for each local group.
+            </returns>
+            <remarks>
+            This is a "generator" method. Rather than returning an entire collection,
+            it uses 'yield return' to return each object in turn.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.CreateGroup(Microsoft.PowerShell.Commands.LocalGroup,System.IntPtr)">
+            <summary>
+            Create a new group in the specified domain.
+            </summary>
+            <param name="groupInfo">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object containing information about the new group.
+            </param>
+            <param name="domainHandle">Handle to the domain in which to create the new group.</param>
+            <returns>
+            A LocalGroup object that represents the newly-created group.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.UpdateGroup(Microsoft.PowerShell.Commands.LocalGroup,Microsoft.PowerShell.Commands.LocalGroup)">
+            <summary>
+            Update a local group with new property values. This method provides
+            the actual implementation.
+            </summary>
+            <param name="group">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalGroup"/> object representing the group to be updated.
+            </param>
+            <param name="changed">
+            A LocalGroup object containing the desired changes.
+            </param>
+            <remarks>
+            Currently, a group's description is the only changeable property.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeLocalGroupObject(System.Management.Automation.SecurityAccountsManager.SamRidEnumeration)">
+            <summary>
+            Create a populated LocalGroup object from a SamRidEnumeration object.
+            </summary>
+            <param name="sre">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object containing minimal information
+            about a local group.
+            </param>
+            <returns>
+            A LocalGroup object, populated with group information.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeLocalGroupObject(System.Management.Automation.SecurityAccountsManager.SamRidEnumeration,System.IntPtr)">
+            <summary>
+            Create a populated LocalGroup object from a SamRidEnumeration object,
+            using an already-opened SAM alias handle.
+            </summary>
+            <param name="sre">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object containing minimal information
+            about a local group.
+            </param>
+            <param name="aliasHandle">
+            Handle to an open SAM alias.
+            </param>
+            <returns>
+            A LocalGroup object, populated with group information.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.UpdateUser(Microsoft.PowerShell.Commands.LocalUser,Microsoft.PowerShell.Commands.LocalUser,System.Security.SecureString,System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState,System.Nullable{System.Boolean})">
+            <summary>
+            Update a local user with new properties.
+            </summary>
+            <param name="user">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object representing the user to be updated.
+            </param>
+            <param name="changed">
+            A LocalUser object containing the desired changes.
+            </param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/>
+            object containing the new password. A null value in this parameter
+            indicates that the password is not to be changed.
+            </param>
+            <param name="passwordExpired">One of the
+            <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState"/> enumeration values indicating
+            whether the password-expired state is to be explicitly set or
+            left as is.
+            If the <paramref name="password"/> parameter is null, this parameter
+            is ignored.
+            </param>
+            <param name="setPasswordNeverExpires">
+            Indicates whether the PasswordNeverExpires parameter was specified.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.SetUserData(System.IntPtr,Microsoft.PowerShell.Commands.LocalUser,System.Management.Automation.SecurityAccountsManager.Sam.UserProperties,System.Security.SecureString,System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState,System.Nullable{System.Boolean})">
+            <summary>
+            Set selected properties of a user.
+            </summary>
+            <param name="userHandle">Handle to an open SAM user.</param>
+            <param name="sourceUser">
+            A <see cref="T:Microsoft.PowerShell.Commands.LocalUser"/> object containing the data to set into the user.
+            </param>
+            <param name="setFlags">
+            A combination of <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.UserProperties"/> values indicating the properties to be set.
+            </param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/>
+            object containing the new password.
+            </param>
+            <param name="passwordExpired">One of the
+            <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState"/> enumeration values indicating
+            whether the password-expired state is to be explicitly set or
+            left as is. If the <paramref name="password"/> parameter is null,
+            this parameter is ignored.
+            </param>
+            <param name="setPasswordNeverExpires">
+            Nullable value the specifies whether the PasswordNeverExpires bit should be flipped
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetUserAccountControl(System.IntPtr)">
+            <summary>
+            Retrieve the User's User Account Control flags.
+            </summary>
+            <param name="userHandle">
+            Handle to an open user.
+            </param>
+            <returns>
+            A 32-bit unsigned integer containing the User Account Control
+            flags as a set of bits.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetSamDacl(System.IntPtr)">
+            <summary>
+            Retrieve the DACL from a SAM object.
+            </summary>
+            <param name="objectHandle">
+            A handle to the SAM object whose DACL is to be retrieved.
+            </param>
+            <returns>
+            A <see cref="T:System.Security.AccessControl.RawAcl"/> object containing the DACL retrieved from
+            the SAM object.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.SetSamDacl(System.IntPtr,System.Security.AccessControl.RawAcl)">
+            <summary>
+            Set the DACL of a SAM object.
+            </summary>
+            <param name="objectHandle">
+            A handle to the SAM object whose DACL is to be retrieved.
+            </param>
+            <param name="rawAcl">
+            A <see cref="T:System.Security.AccessControl.RawAcl"/> object containing the DACL to be set into
+            the SAM object.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetUserMayChangePassword(System.IntPtr,System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Determine if a user account password may be changed by the user.
+            </summary>
+            <param name="userHandle">
+            Handle to a SAM user object.
+            </param>
+            <param name="userSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the SAM
+            object's associated user.
+            </param>
+            <returns>
+            True if the user account password may be changed by its user,
+            false otherwise.
+            </returns>
+            <remarks>
+            The ability to for the user to change the user account password
+            is a permission in the object's DACL. This method walks through
+            the ACEs in the DACL, checking if the permission is granted to
+            either Everyone or the user identified by the userSid parameter.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.SetUserMayChangePassword(System.IntPtr,System.Security.Principal.SecurityIdentifier,System.Boolean)">
+            <summary>
+            Set whether a user account password may be changed by the user.
+            </summary>
+            <param name="userHandle">
+            Handle to a SAM user object.
+            </param>
+            <param name="userSid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the SAM
+            object's associated user.
+            </param>
+            <param name="enable">
+            A boolean indicating whether the permission is to be enabled or
+            disabled.
+            </param>
+            <remarks>
+            The ability to for the user to change the user account password
+            is a permission in the object's DACL. This method walks through
+            the ACEs in the DACL, enabling or disabling the permission on ACEs
+            associated with either Everyone or the user identified by the
+            userSid parameter.
+            </remarks>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.IsPasswordExpired(System.IntPtr)">
+            <summary>
+            Determine if a user's password has expired.
+            </summary>
+            <param name="userHandle">
+            Handle to an open User.
+            </param>
+            <returns>
+            True if the user's password has expired, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.SetUserPassword(System.IntPtr,System.Security.SecureString,System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState)">
+            <summary>
+            Set a user's password.
+            </summary>
+            <param name="userHandle">Handle to an open User.</param>
+            <param name="password">A <see cref="T:System.Security.SecureString"/>
+            object containing the new password.
+            </param>
+            <param name="passwordExpired">One of the
+            <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.PasswordExpiredState"/> enumeration values indicating
+            whether the password-expired state is to be explicitly set or
+            left as is.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.RidToSid(System.IntPtr,System.UInt32)">
+            <summary>
+            Create a <see cref="T:System.Security.Principal.SecurityIdentifier"/>
+            object from a relative ID.
+            </summary>
+            <param name="domainHandle">
+            Handle to the domain from which the ID was acquired.
+            </param>
+            <param name="rid">
+            The Relative ID value.
+            </param>
+            <returns>
+            A SecurityIdentifier object containing the SID of the
+            object identified by the <paramref name="rid"/> parameter.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.LookupAccountInfo(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Lookup the account identified by the specified SID.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the account
+            to look up.
+            </param>
+            <returns>
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo"/> object contains information about the
+            account, or null if no matching account was found.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.LookupAccountInfo(System.String)">
+            <summary>
+            Lookup the account identified by specified account name.
+            </summary>
+            <param name="accountName">
+            A string containing the name of the account to look up.
+            </param>
+            <returns>
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo"/> object contains information about the
+            account, or null if no matching account was found.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeLocalPrincipalObject(System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo)">
+            <summary>
+            Create a <see cref="T:Microsoft.PowerShell.Commands.LocalPrincipal"/> object from information in
+            an AccountInfo object.
+            </summary>
+            <param name="info">
+            An AccountInfo object containing information about the account
+            for which the LocalPrincipal object is being created. This parameter
+            may be null, in which case this method returns null.
+            </param>
+            <returns>
+            A new LocalPrincipal object representing the account, or null if the
+            <paramref name="info"/> parameter is null.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.Succeeded(System.UInt32)">
+            <summary>
+            Indicate whether a Status code is a successful value.
+            </summary>
+            <param name="ntStatus">
+            One of the NTSTATUS code values indicating the error, if any.
+            </param>
+            <returns>
+            True if the Status code represents a success, false otherwise.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.ThrowOnFailure(System.UInt32,System.Management.Automation.SecurityAccountsManager.Sam.Context)">
+            <summary>
+            Helper to throw an exception if the provided Status code
+            represents a failure.
+            </summary>
+            <param name="ntStatus">
+            One of the NTSTATUS code values indicating the error, if any.
+            </param>
+            <param name="context">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.Context"/> object containing information about the
+            current operation. If this parameter is null, the class's context
+            is used.
+            </param>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.MakeException(System.UInt32,System.Management.Automation.SecurityAccountsManager.Sam.Context)">
+            <summary>
+            Create an appropriate exception from the specified status code.
+            </summary>
+            <param name="ntStatus">
+            One of the NTSTATUS code values indicating the error, if any.
+            </param>
+            <param name="context">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.Context"/> object containing information about the
+            current operation. If this parameter is null, the class's context
+            is used.
+            </param>
+            <returns>
+            An <see cref="T:System.Exception"/> object, or an object derived from Exception,
+            appropriate to the error. If <paramref name="ntStatus"/> does not
+            indicate an error, the method returns null.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.DateTimeFromSam(System.Int64)">
+            <summary>
+            Create a DateTime object from a 64-bit value from one of the SAM
+            structures.
+            </summary>
+            <param name="samValue">
+            A signed 64-bit value representing a date and time.
+            </param>
+            <returns>
+            A nullable DateTime object representing a date and time,
+            or null if the <paramref name="samValue"/> parameter is zero.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetPrincipalSource(System.Security.Principal.SecurityIdentifier)">
+            <summary>
+            Determine the source of a user or group. Either local, Active Directory,
+            or Azure AD.
+            </summary>
+            <param name="sid">
+            A <see cref="T:System.Security.Principal.SecurityIdentifier"/> object identifying the user or group.
+            </param>
+            <returns>
+            One of the <see cref="T:Microsoft.PowerShell.Commands.PrincipalSource"/> enumerations identifying the
+            source of the object.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetPrincipalSource(System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo)">
+            <summary>
+            Determine the source of a user or group. Either local, Active Directory,
+            or Azure AD.
+            </summary>
+            <param name="info">
+            An <see cref="T:System.Management.Automation.SecurityAccountsManager.Sam.AccountInfo"/> object containing information about the
+            user or group.
+            </param>
+            <returns>
+            One of the <see cref="T:Microsoft.PowerShell.Commands.PrincipalSource"/> enumerations identifying the
+            source of the object.
+            </returns>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.Sam.GetPrincipalSource(System.Management.Automation.SecurityAccountsManager.SamRidEnumeration)">
+            <summary>
+            Determine the source of a user or group. Either local, Active Directory,
+            or Azure AD.
+            </summary>
+            <param name="sre">
+            A <see cref="T:System.Management.Automation.SecurityAccountsManager.SamRidEnumeration"/> object identifying the user or group.
+            </param>
+            <returns>
+            One of the <see cref="T:Microsoft.PowerShell.Commands.PrincipalSource"/> enumerations identifying the
+            source of the object.
+            </returns>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.Sam.OperatingSystem">
+            <summary>
+            It only contains the properties that get used in powershell
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.OperatingSystem.Version">
+            <summary>
+            OS version
+            </summary>
+        </member>
+        <member name="P:System.Management.Automation.SecurityAccountsManager.Sam.OperatingSystem.VersionString">
+            <summary>
+            VersionString
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.SecurityAccountsManager.StringUtil">
+            <summary>
+            Contains utility functions for formatting localizable strings
+            </summary>
+        </member>
+        <member name="M:System.Management.Automation.SecurityAccountsManager.StringUtil.#ctor">
+            <summary>
+            Private constructor to precent auto-generation of a default constructor with greater accessability.
+            </summary>
+        </member>
+        <member name="T:System.Management.Automation.PInvokeDllNames">
+            <summary>
+            PinvokeDllNames contains the DLL names to be use for PInvoke in FullCLR/CoreCLR powershell.
+            
+            * When adding a new DLL name here, make sure that you add both the FullCLR and CoreCLR version
+              of it. Add the comment '/*COUNT*/' with the new DLL name, and make sure the 'COUNT' is the 
+              same for both FullCLR and CoreCLR DLL names.
+            </summary>
+        </member>
+    </members>
+</doc>
