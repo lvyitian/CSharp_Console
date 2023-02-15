@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.PowerShell.Commands.Diagnostics</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.PowerShell.Commands.GetWinEventCommand">
+            
+            Class that implements the Get-WinEvent cmdlet.
+            
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.ListLog">
+            <summary>
+            ListLog parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.LogName">
+            <summary>
+            GetLog parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.ListProvider">
+            <summary>
+            ListProvider parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.ProviderName">
+            <summary>
+            ProviderName parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.Path">
+            <summary>
+            Path parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.MaxEvents">
+            <summary>
+            MaxEvents parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.ComputerName">
+            <summary>
+            ComputerName parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.Credential">
+            <summary>
+            Credential parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.FilterXPath">
+            <summary>
+            FilterXPath parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.FilterXml">
+            <summary>
+            FilterXml parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.FilterHashtable">
+            <summary>
+            FilterHashtable parameter
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.Force">
+            <summary>
+            Force switch
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.GetWinEventCommand.Oldest">
+            <summary>
+            Oldest switch
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetWinEventCommand.BeginProcessing">
+            <summary>
+            BeginProcessing() is invoked once per pipeline: we will load System.Core.dll here
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetWinEventCommand.EndProcessing">
+            <summary>
+            EndProcessing() is invoked once per pipeline
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.GetWinEventCommand.ProcessRecord">
+            <summary>
+            ProcessRecord() override.
+            This is the main entry point for the cmdlet.
+            </summary>
+        </member>
+        <member name="T:Microsoft.PowerShell.Commands.NewWinEventCommand">
+            
+            Class that implements the New-WinEvent cmdlet.
+            This cmdlet writes a new Etw event using the provider specified in parameter.
+            
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewWinEventCommand.ProviderName">
+            <summary>
+            ProviderName
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewWinEventCommand.Id">
+            <summary>
+            Id (EventId defined in manifest file)
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewWinEventCommand.Version">
+            <summary>
+            Version (event version)
+            </summary>
+        </member>
+        <member name="P:Microsoft.PowerShell.Commands.NewWinEventCommand.Payload">
+            <summary>
+            Event Payload
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewWinEventCommand.BeginProcessing">
+            <summary>
+            BeginProcessing
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewWinEventCommand.ProcessRecord">
+            <summary>
+            ProcessRecord
+            </summary>
+        </member>
+        <member name="M:Microsoft.PowerShell.Commands.NewWinEventCommand.EndProcessing">
+            <summary>
+            EndProcessing
+            </summary>
+        </member>
+    </members>
+</doc>

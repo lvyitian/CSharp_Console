@@ -1,0 +1,2 @@
+# Nmap 7.93 scan initiated Wed Feb 15 14:08:05 2023 as: C:\\Users\\Administrator\\Desktop\\a1\\a1\\bin\\Debug\\tools\\nmap.exe -A -oG log.txt
+# Nmap done at Wed Feb 15 14:08:06 2023 -- 0 IP addresses (0 hosts up) scanned in 0.60 seconds
