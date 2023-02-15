@@ -122,9 +122,9 @@ namespace a1
 		{
 			lock (process) {
 				if (q.Count >= 1) {
-					string s = q[0] as String;
-					q.RemoveAt(0);
-					richTextBox1.AppendText(s + "\n");
+					foreach(Object i in q)
+						richTextBox1.AppendText(i as string + "\n");
+					q.Clear();
 				}
 			}
 		}
